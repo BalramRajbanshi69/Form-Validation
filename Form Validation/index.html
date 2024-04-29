@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-box">
+            <div class="sentence">
+
+                <p>Form</p>
+                <p>Validation</p>
+            
+            </div>
+            <div class="form-validation">
+                <header class="form-header">
+                    <h2>Form Validation</h2>
+                </header>
+                <main class="form-main">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="fullname" id="full-name" placeholder="Balram Rajbanshi" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="balramrajbanshi4769@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <div>
+                        <label for="date">Birth Date</label>
+                        <input type="date" name="Date" id="date">
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <select class="select-class" name="gender" id="gender">
+                            <option value="" selected disabled>Select your gender
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                </main>
+                <footer class="form-footer">
+                    <button>Submit</button>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
